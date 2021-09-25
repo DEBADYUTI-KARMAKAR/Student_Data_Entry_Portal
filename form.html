@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+	#frm
+	{
+		margin: auto;
+			width: 70%;
+			border: 3px solid #ccc;
+			padding: 10px;
+	}
+</style>
+</head>
+<body>
+<div class="form-group" id="frm">
+	<div>
+	<h2>Please fill up the From</h2>
+	<form name="frm" method="post" action="form.py">
+	<label>Name:</label><input type="text" name="t1" required placeholder="E.g: John Doe" class="form-control">
+	<br>
+	<label>Age:</label><input type="number" name="t2" required placeholder="Enter Your age" class="form-control">
+	<br>
+	<label>Gender:</label><input type="radio" name="r1" value="Male">Male
+							<input type="radio" name="r1" value="Female">Female
+</div>
+<div>
+	City:<select name="t4">
+		<option>---Select a City---</option>
+		<option>Kolkata</option>
+		<option>Chennai</option>
+		<option>Mumbai</option>
+		<option>Delhi</option>
+		<option>Hooghly</option>
+	</select>
+</div>
+	<br>
+	<div>
+		Email:<input type="email" name="t5" required placeholder="xyz@gmail.com" class="form-control">
+	</div>
+	<div>
+		Phone:<input type="number" name="t6" required placeholder="Put Your Nummber" class="form-control">
+	</div>
+	<div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</div>
+</form>
+<br>
+<br>
+<a href="view.cgi">View All</a>
+
+</div>
+</div>
+
+</body>
+</html>

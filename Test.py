@@ -1,0 +1,12 @@
+#!C:\Users\Adimin\AppData\Local\Programs\Python\Python37\python.exe
+print("Content-type:text/html\r\n\r")
+print("<html>")
+print("<head>")
+print("<title>")
+print("Welcome")
+print("</title>")
+print("</head>")
+print("<body>")
+print("<h1> Hello This is a test </h1>")
+print("</body>")
+print("</html>")
